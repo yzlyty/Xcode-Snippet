@@ -1,2 +1,4 @@
 # Xcode-Snippet
-Some Xcode Snippet for Convenience
+Some Xcode-Snippets for Convenience
+
+Move these files to `~/Library/Developer/Xcode/UserData/CodeSnippets/`
