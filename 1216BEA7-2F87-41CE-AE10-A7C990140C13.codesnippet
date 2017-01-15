@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>postnotification</string>
+	<string>ceny</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#notificationName#&gt; object:self userInfo:&lt;#userInfo#&gt;];
+	<string>make.centerY.equalTo(&lt;#view#&gt;.mas_centerY);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFB9DD8A-512F-4A9D-BB7C-081176D6C77C</string>
+	<string>1216BEA7-2F87-41CE-AE10-A7C990140C13</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>post notification</string>
+	<string>Masonry CenterY</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

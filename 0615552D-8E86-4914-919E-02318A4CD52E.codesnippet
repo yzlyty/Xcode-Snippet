@@ -3,20 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>postnotification</string>
+	<string>textfield</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#notificationName#&gt; object:self userInfo:&lt;#userInfo#&gt;];
+	<string>self.textField = [[UITextField alloc] init];
+self.textField.textColor = [UIColor whiteColor];
+self.textField.font = [UIFont systemFontOfSize:&lt;#size#&gt;];
+self.textField.text = EmptyStr;
+self.textField.textAlignment = NSTextAlignmentCenter;
+[&lt;#view#&gt; addSubview:self.textField];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFB9DD8A-512F-4A9D-BB7C-081176D6C77C</string>
+	<string>0615552D-8E86-4914-919E-02318A4CD52E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>post notification</string>
+	<string>textField initialization</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

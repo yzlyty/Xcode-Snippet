@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>postnotification</string>
+	<string>wid</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#notificationName#&gt; object:self userInfo:&lt;#userInfo#&gt;];
+	<string>make.width.equalTo(@&lt;#width#&gt;);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFB9DD8A-512F-4A9D-BB7C-081176D6C77C</string>
+	<string>9AA72D64-D45C-4BC9-96D0-5DC06D36947E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>post notification</string>
+	<string>masonry width</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.button setTitle:EmptyStr forState:UIControlStateNormal];
+    [self.button setBackgroundImage:[UIImage imageNamed:@"&lt;#name#&gt;"] forState:UIControlStateNormal];
+    [self.button setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+    [self.button setTitleColor:[UIColor colorFromHexString:@"&lt;#color#&gt;"] forState:UIControlStateNormal];
+    self.button.titleLabel.font = [UIFont systemFontOfSize:&lt;#size#&gt;];
+    [self.button setBackgroundColor:[UIColor clearColor]];
+    self.button.layer.cornerRadius = avatarSize / 2;
+    self.button.layer.masksToBounds = YES;
+    [self.button addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+    self.button.hitTestEdgeInsets = UIEdgeInsetsMake(-10, -10, -10, -10);
+    [&lt;#view#&gt; addSubview:self.button];
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BFAA6080-2831-4246-A4AD-6679CBDFC2D8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button initialization</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

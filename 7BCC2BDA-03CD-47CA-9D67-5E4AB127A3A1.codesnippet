@@ -3,20 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>postnotification</string>
+	<string>click</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#notificationName#&gt; object:self userInfo:&lt;#userInfo#&gt;];
+	<string>- (void)on&lt;#name#&gt;BtnClicked:(id)sender
+{
+    
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFB9DD8A-512F-4A9D-BB7C-081176D6C77C</string>
+	<string>7BCC2BDA-03CD-47CA-9D67-5E4AB127A3A1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>post notification</string>
+	<string>button click</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
